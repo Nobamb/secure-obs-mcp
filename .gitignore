@@ -1,0 +1,17 @@
+# Local Python environment and generated outputs
+.venv/
+__pycache__/
+.pytest_cache/
+/dist/
+
+# Local secrets, settings, captures and diagnostics
+.env
+.env.*
+!.env.example
+/config.local.toml
+/.obs-mcp-local/
+/screenshots/
+/recordings/
+/logs/
+*.log
+*.mkv
