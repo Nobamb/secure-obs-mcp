@@ -23,3 +23,13 @@ Run unit and fake-OBS integration checks before live OBS verification. Use a ded
 ## Commits and Pull Requests
 
 Documentation commits use short `docs:` subjects. Discuss behavior changes in a linked issue and keep each PR focused. Summarize the user-facing change and request separate security review for changes to credentials, RPC allowlists, storage, approvals, isolation, networking, or release provenance. Keep credentials, raw logs, private paths, and original captures out of PRs. [Contributing guide](CONTRIBUTING.md) · [PR template](.github/PULL_REQUEST_TEMPLATE.md) · [Private vulnerability reporting](SECURITY.md)
+
+## Lessons Learned and Regression Prevention
+
+Before starting a task, read `init/rules/lesson-policy.md` and review relevant lessons in `init/rules/lessons/`.
+
+When a meaningful implementation mistake, security defect, failed verification, or recurring issue is identified, record its root cause, corrective action, prevention rule, and verification evidence in a separate Markdown file.
+
+Use one file per lesson. Avoid duplicate entries and shared append-only logs.
+
+Never publish credentials, sensitive diagnostic data, or undisclosed vulnerability details. Lessons must not override mandatory security requirements.

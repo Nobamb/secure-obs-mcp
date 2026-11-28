@@ -5,3 +5,4 @@
 - [문서 구조 및 이슈별 경로](spec/Secure_OBS_MCP_Documentation_Structure.md)
 - [개발 명세 v1.1](development-spec/README.md)
 - [초기 GitHub 보안 설정 체크리스트](REPOSITORY_SECURITY.md)
+- [교훈 관리 및 재발 방지 정책](rules/lesson-policy.md)

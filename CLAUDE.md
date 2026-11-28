@@ -75,7 +75,7 @@ Planned stack: Python 3.12+ and the official `mcp` SDK. Use only the docs for th
 - Examples use synthetic values only. Never include real local paths, credentials, captures, or raw logs.
 - Mark each statement's status clearly: designed, implemented, or verified, with the version and date where relevant. For docs-only changes, verify paths and links and check version claims against primary sources.
 - To check the local ignore rules, run `git check-ignore .env config.local.toml screenshots/demo.png recordings/demo.mkv logs/demo.log`.
-- The documentation guide plans for shared AI guidance to live in `AGENTS.md`, with `CLAUDE.md` referencing it. That file doesn't exist yet.
+- The documentation guide plans for shared AI guidance to live in `AGENTS.md`, with `CLAUDE.md` referencing it.
 
 ## Coding guidelines (from `.agent/rules/`)
 

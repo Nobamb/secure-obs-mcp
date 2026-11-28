@@ -18,3 +18,17 @@ __pycache__/
 
 #workprocess
 /work_process/
+
+# Private development rules
+/init/rules/private/
+
+# Private security findings
+/docs/security/private/
+/.security-local/
+
+# Local AI agent instructions
+AGENTS.local.md
+CLAUDE.local.md
+
+# Local security scan reports
+/security-scan-results/
